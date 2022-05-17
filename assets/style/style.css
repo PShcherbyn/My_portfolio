@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url(text.css);
+@import url(button.css);
+@import url(social_networks.css);
+:root {
+    --green: #348F6C;
+    --dark_green: #2A815F;
+    --gold: #E2C992;
+    --light: #fff;
+    --dark_blue: #3F3D56;
+    --grey: #C0C0C0;
+    --dark_gray: #DEDEDE;
+    --dark: #272727;
+    --black: #000000;
+    --white: #ffffff;
+    --blue: #2D74FF;
+    --dark_blue: #043daf;
+
+    --black-50: rgba(0, 0, 0, 0.5);
+    --white-50: rgba(255, 255, 255, 0.5);
+  
+    /* RGB */
+    --gold_rgb: 226, 201, 146;
+    --green_rgb: 52, 143, 108;
+    --dark_green_rgb: 42, 129, 95;
+    --blue_rgb: 45, 116, 255;
+  }
+  
+body{
+    background-color: var(--green);
+}
+.header{
+
+}
+.menu{
+    display: flex;
+    position: relative;
+    margin: 5px;
+    
+}
+.menu li {
+	border: none;
+	outline: none;
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 1rem;
+	font-family: Roboto, Verdana, Tahoma, sans;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #fff;
+	transition: 200ms;
+	background-color: transparent;
+	display: inline-block;
+    background-color: var(--dark_green);
+}
+.menu li:hover{
+    background-color: var(--dark_gray);
+    border-radius: 5px ;
+}
+.menu a{
+ color: #000000;
+}
+.main_content{
+    background-color: var(--dark_green);
+}
+.menu__icon{
+    position:absolute;
+    left: 2px;
+}

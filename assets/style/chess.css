@@ -1,0 +1,40 @@
+.t{ border: 1px solid black; 
+    border-collapse: collapse; 
+    margin: auto; 
+}
+.w{ background-color: #ffcc99; 
+}
+.b{ background-color: #cc9966; 
+}
+table{
+    background-color: #eeeeee;
+    border: 3px solid;
+    table-layout: fixed;
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+}
+   .chess-board th { 
+       padding: .5em; 
+}
+   .chess-board td { 
+       border: 1px solid; width: 5em; 
+       height: 5em; text-align: center; vertical-align: middle; 
+}
+   .chess-board .white{ 
+       background: #f0d9b5; 
+}
+   .chess-board .black{ 
+       background: #b58863; 
+}
+.w, .b{
+    font-size: 60px; 
+    width: 80px; 
+    height: 80px; 
+    padding: 0px; 
+    margin: 0px; 
+    border: 0px; 
+    text-align: center; 
+    vertical-align: middle;
+}
