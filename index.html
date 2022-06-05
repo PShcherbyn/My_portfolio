@@ -9,14 +9,18 @@
 <body>
     <div class="header">
         <h1>My Site</h1>
-        <div class="menu">
-            <ul>
-                <li><ion-icon class="menu__icon" name="document-text-outline"></ion-icon><a href="#"> About me</a></li>
-                <li><ion-icon class="menu__icon" name="clipboard-outline"></ion-icon><a href="#">My lerning</a></li>
-                <li><ion-icon class="menu__icon" name="game-controller-outline"></ion-icon><a href="chess.html">Let`s play chess</a></li>
+        <div class="menu_header">
+            <ul class="menu">
+                <li><a href="#"> <ion-icon class="menu__icon" name="document-text-outline"></ion-icon> About me</a></li>
+                <li><a href="#"> <ion-icon class="menu__icon" name="clipboard-outline"></ion-icon> My lerning</a></li>
+                <li ><a href="#"><ion-icon class="menu__icon" name="game-controller-outline"></ion-icon> Let`s play</a>
+                <ul>
+                    <li><a href="chess.html">Chess</a></li>
+                    <li><a href="#">Tic Tac Toe</a></li>
+                        </ul>
+                    </li>
             </ul>
         </div>
-    </div>
     <div class="main_content">
         <h2>About me</h2>
         <p>Hello...</p>

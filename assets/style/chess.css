@@ -1,40 +1,23 @@
-.t{ border: 1px solid black; 
-    border-collapse: collapse; 
-    margin: auto; 
+.board{
+    width:640px;
+    height: 640px;
+    border: 20px solid black ;
 }
-.w{ background-color: #ffcc99; 
+.square{
+    float: left;
+    width:80px;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
 }
-.b{ background-color: #cc9966; 
+.square_white{ 
+    background-color:rgb(165, 97, 42); 
 }
-table{
-    background-color: #eeeeee;
-    border: 3px solid;
-    table-layout: fixed;
-    text-align: center;
+.square_black{ 
+    background-color: white;
 }
-td{
-    border: 1px solid black;
-}
-   .chess-board th { 
-       padding: .5em; 
-}
-   .chess-board td { 
-       border: 1px solid; width: 5em; 
-       height: 5em; text-align: center; vertical-align: middle; 
-}
-   .chess-board .white{ 
-       background: #f0d9b5; 
-}
-   .chess-board .black{ 
-       background: #b58863; 
-}
-.w, .b{
-    font-size: 60px; 
-    width: 80px; 
-    height: 80px; 
-    padding: 0px; 
-    margin: 0px; 
-    border: 0px; 
-    text-align: center; 
-    vertical-align: middle;
+.figure {
+    font-size:60px;
+    cursor: pointer;
 }

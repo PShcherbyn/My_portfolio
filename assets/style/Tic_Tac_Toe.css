@@ -1,0 +1,40 @@
+body{
+    background-color: #C0C0C0;
+}
+table{
+    border: 5px solid black;
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+    justify-content: center;
+}
+
+td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+    align-items: flex-end;
+    justify-content: center;
+}
+.board{
+    width: 300px;
+    height: 300px;
+    border: 20px solid black ;
+}
+.square_white{ 
+    background-color: gold; 
+}
+.square_black{ 
+    background-color:#348F6C;
+}
+.square{
+    float: left;
+    width:100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.square_black .square_white :hover{
+    box-shadow: 3px;
+}
