@@ -13,3 +13,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+.main_content{
+    display: inline;
+}
