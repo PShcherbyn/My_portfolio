@@ -1,14 +1,6 @@
 body{
     background-color: #C0C0C0;
 }
-table{
-    border: 5px solid black;
-    margin: 10px;
-    width: 160px;
-    height: 160px;
-    justify-content: center;
-}
-
 td, th {
     padding: 3px; /* Поля вокруг содержимого таблицы */
     border: 1px solid black; /* Параметры рамки */

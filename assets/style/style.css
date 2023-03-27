@@ -3,19 +3,21 @@
 @import url(button.css);
 @import url(social_networks.css);
 @import url(Tic_Tac_Toe.css);
+@import url(button.css);
 :root {
-    --green: #348F6C;
+    --lilack: #C8A2C8;
     --dark_green: #2A815F;
     --gold: #E2C992;
     --light: #fff;
     --dark_blue: #3F3D56;
-    --grey: #C0C0C0;
+    --grey: #c0c0c0;
     --dark_gray: #DEDEDE;
     --dark: #272727;
     --black: #000000;
     --white: #ffffff;
     --blue: #2D74FF;
-    --dark_blue: #043daf;
+    --dark_blue1: #043daf;
+    --light_blue: #99cddd;
 
     --black-50: rgba(0, 0, 0, 0.5);
     --white-50: rgba(255, 255, 255, 0.5);
@@ -29,12 +31,8 @@
   }
   
 body{
-    background-color: var(--green);
+    background: linear-gradient(to right, #fadadd, #b3dcfd);
     margin: 0;
-}
-
-.main_content{
-    background-color: var(--dark_green);
 }
 
 .menu {
@@ -45,12 +43,12 @@ body{
     .menu li {
         width: 150px;
         list-style: none;
-        background: var(--dark_green);
+        background: var(--light_blue);
         position: relative;
     }
 
     .menu a {
-        color: var(--gold);
+        color: var(--dark);
         text-decoration: none;
         display: block;
         text-align: center;
@@ -80,3 +78,22 @@ body{
         top: 0;
         left: 100%;
     }
+
+    .menu_header{
+        display: table;
+        position: relative;
+        width: calc(100% - (-99px));
+        margin-left: -50px;
+    }
+    ion-icon{
+        font-size:20px;
+    }
+
+    .page{
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        max-height: 100%;
+      }
+      .header__button{
+      }

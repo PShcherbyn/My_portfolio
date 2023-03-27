@@ -1,0 +1,32 @@
+.button {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: Roboto, Verdana, Tahoma, sans;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    transition: 200ms;
+    background-color: transparent;
+    display: inline-block;
+    
+}
+.button--gold {
+    background-color: var(--gold);
+    color: var(--green);
+}
+.button--green {
+    background-color: var(--green);
+    color: var(--light);
+}
+.button--dark-green {
+    background-color: var(--dark_green);
+    color: var(--light);
+}
+
+.button:hover {
+    transform: scale(1.05);
+    filter: brightness(90%);
+}
